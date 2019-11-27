@@ -21,8 +21,10 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
       <scope>test</scope>  
     </dependency>  
   </dependencies>  
+	
+	 <build>
   <reporting>
-	    <build>
+	   
   <plugins>
 	<!-- Normally, we take off the dependency report, saves time. -->
 	<plugin>
@@ -48,6 +50,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	</plugin>
 
    </plugins>
-		      </build>
+		     
 </reporting>
+		  </build>
     </project>  
