@@ -23,6 +23,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   </dependencies>  
   <build>
      <plugin>
+     <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>cobertura-maven-plugin</artifactId>
             <version>2.5.1</version>
@@ -47,6 +48,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                 </execution>
             </executions>
         </plugin>
+    </plugin>
       </build>
   
 </project>  
