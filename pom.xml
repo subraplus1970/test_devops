@@ -22,6 +22,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     </dependency>  
   </dependencies>  
   <reporting>
+	    <build>
   <plugins>
 	<!-- Normally, we take off the dependency report, saves time. -->
 	<plugin>
@@ -47,5 +48,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	</plugin>
 
    </plugins>
+		      </build>
 </reporting>
     </project>  
